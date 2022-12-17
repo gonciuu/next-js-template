@@ -89,7 +89,11 @@
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
-  },
-  "ignorePatterns": ["node_modules/", "dist/", "coverage/", "public/"]
+  }
 }
