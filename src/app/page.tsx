@@ -1,8 +1,11 @@
+import Esas from './esas'
+import '../styles/globals.css'
+
 export default function HomePage() {
   return (
     <div>
-      <h1 className="bg-red-300 text-blue-500">Home Page</h1>
+      <Esas a={2} b={1} />
       <h1 className="text-6xl font-bold underline">Hello world!</h1>
     </div>
-  );
+  )
 }
