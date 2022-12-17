@@ -1032,7 +1032,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/utils@5.46.1":
+"@typescript-eslint/utils@5.46.1", "@typescript-eslint/utils@^5.10.0", "@typescript-eslint/utils@^5.13.0":
   version "5.46.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.46.1.tgz#7da3c934d9fd0eb4002a6bb3429f33298b469b4a"
   integrity sha512-RBdBAGv3oEpFojaCYT4Ghn4775pdjvwfDOfQ2P6qzNVgQOVrnSPe5/Pb88kv7xzYQjoio0eKHKB9GJ16ieSxvA==
@@ -2039,6 +2039,13 @@ eslint-plugin-import@^2.26.0:
     resolve "^1.22.0"
     tsconfig-paths "^3.14.1"
 
+eslint-plugin-jest@^27.1.7:
+  version "27.1.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.1.7.tgz#0351e904afb8d66b7f70452929556dfdc8daba0d"
+  integrity sha512-0QVzf+og4YI1Qr3UoprkqqhezAZjFffdi62b0IurkCXMqPtRW84/UT4CKsYT80h/D82LA9avjO/80Ou1LdgbaQ==
+  dependencies:
+    "@typescript-eslint/utils" "^5.10.0"
+
 eslint-plugin-jsx-a11y@^6.5.1, eslint-plugin-jsx-a11y@^6.6.1:
   version "6.6.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.6.1.tgz#93736fc91b83fdc38cc8d115deedfc3091aef1ff"
@@ -2099,6 +2106,13 @@ eslint-plugin-tailwindcss@^3.7.1:
     fast-glob "^3.2.5"
     postcss "^8.4.4"
     tailwindcss "^3.2.2"
+
+eslint-plugin-testing-library@^5.9.1:
+  version "5.9.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.9.1.tgz#12e4bd34c48683ee98af4df2e3318ec9f51dcf8a"
+  integrity sha512-6BQp3tmb79jLLasPHJmy8DnxREe+2Pgf7L+7o09TSWPfdqqtQfRZmZNetr5mOs3yqZk/MRNxpN3RUpJe0wB4LQ==
+  dependencies:
+    "@typescript-eslint/utils" "^5.13.0"
 
 eslint-rule-composer@^0.3.0:
   version "0.3.0"

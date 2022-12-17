@@ -1,6 +1,14 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "prettier", "tailwindcss", "jsx-a11y", "autofix"],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "tailwindcss",
+    "jsx-a11y",
+    "autofix",
+    "jest",
+    "testing-library"
+  ],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
@@ -20,7 +28,10 @@
     "plugin:import/errors",
     "plugin:@next/next/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:react/jsx-runtime"
+    "plugin:react/jsx-runtime",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
+    "plugin:testing-library/react"
   ],
   "rules": {
     "@typescript-eslint/consistent-type-imports": "warn",
