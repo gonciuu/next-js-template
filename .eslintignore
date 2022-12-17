@@ -8,6 +8,7 @@ dist/
 coverage/
 tailwind.config.js
 postcss.config.js
+jest.config.js
 next.config.js
 package.json
 README.md
